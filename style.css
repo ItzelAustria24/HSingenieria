@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Belanosima:wght@400;600;700&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Belanosima:wght@400;600;700&family=Bree+Serif&family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Belanosima:wght@400;600;700&family=Bree+Serif&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script:wght@400;700&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: "Oleo Script", system-ui;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row
+}
+
+header ul li{
+    margin: 30px;
+}
+
+header img{
+    width: 350px;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    padding: 100px;
+    color: rgb(41, 76, 129);
+    text-align: center;
+    font-family: "Belanosima", sans-serif;
+
+}
+
+h2{
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    text-align: center;
+    color: rgb(110, 112, 115);
+}
+
+
+.ini{
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    margin: 15px 0px 15px 0px;
+    background-color: rgb(41, 76, 129);
+}
+
+.in{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.in h1{
+    font-size: 40px;
+    color: rgb(110, 112, 115);
+    font-family: "Bree Serif", serif;
+}
+
+.in p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Bree Serif", serif;
+}
+
+.in img{
+    width: 400px;
+}
+
+.som {
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    margin: 15px 0px 15px 0px;
+    background-color: rgb(173, 173, 173);
+}
+
+.so {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.so h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: "Bree Serif", serif;
+}
+
+.so h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Bree Serif", serif;
+}
+
+.so p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: "Bree Serif", serif;
+    text-align: justify;
+}
+
+.som2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    margin: 15px 0px 15px 0px;
+    background-color: rgb(173, 173, 173);
+}
+
+.im img{
+    width: 500px;
+    border-radius: 50%;
+}
+
+.contac {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin: 15px 0px 15px 0px;
+}
+
+.contac ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column
+}
+
+.con li img{
+    width: 30px;
+}
